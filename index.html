@@ -16,12 +16,21 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 <body>
 
     <div class="upi">
         <img src="./Images/qr code.webp" alt="">
-        <p class="fs-5 text-center">Download<br>CRED</p>
+        <p class="text-center">Download<br>CRED</p>
     </div>
 
     <!-- Banner -->
@@ -30,6 +39,33 @@
             <video autoplay loop muted>
                 <source src="./Video/banner new.mp4">
             </video>
+            <img class="logo" src="./Images/logo.png" alt="">
+        </div>
+        <div class="navbar">
+            <div class="div1">
+                <button class="button3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar1">
+                    <i class="fa-solid fa-chevron-down fa-lg" style="color: #ffffff;"></i><label class="label1">&nbsp; CLICK TO EXPAND</label>
+                </button>
+                <div class="offcanvas offcanvas1 offcanvas-top" tabindex="-1" id="offcanvasNavbar1" aria-labelledby="offcanvasNavbarLabel">
+                    <button class="button2" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="fa-solid fa-x fa-2xl" style="color: #ffffff;"></i>
+                    </button>
+                    <img class="logo" src="./Images/logo.png" alt="">
+                </div>
+                <p class="text-center my-0"><span class="span1">U P G R A D E &nbsp; T O</span><br><span class="span2">CRED UPI</span></p>
+            </div>
+            <button class="button1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+            </button>
+            <div class="offcanvas offcanvas2 offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <button class="button2" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fa-solid fa-x fa-2xl" style="color: #ffffff;"></i>
+                </button>
+                <img class="logo" src="./Images/logo.png" alt="">
+            </div>
+        </div>
+        <div class="heading">
+            <p class="text-center p-0 m-0"><span class="heading1 p-0 m-0">crafted for the<br>creditworthy</span><br><span class="heading2 m-0 p-0">CRED is a members-only club that enables the <br>trustworthy to make financial progress</span></p>
         </div>
     </section>
 
