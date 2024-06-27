@@ -88,12 +88,86 @@
     right: 7.7%;
 }
 #banner .offcanvas1{
-    background-color: black;
-    height: 1000px;
+    background-image: url(./Images/Dropdownnew.jpg);
+    background-repeat: no-repeat;
+    height: 850px;
+}
+
+#banner .learn{
+    background-color: rgba(0, 0, 0, 0.39);
+    position: absolute;
+    top: 740px;
+    color: white;
+    width: 12%;
+    left: 44%;
+    aspect-ratio: 6/2;
+    font-size: 1vw;
 }
 #banner .offcanvas2{
     background-color: black;
 }
+#banner .main{
+    width: 100%;
+    margin-top: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+#banner .list{
+    width: 25%;
+    cursor: pointer;
+}
+#banner .list p{
+    font-size: 1.4vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: white;
+    width: 100%;
+    border-bottom: grey 1px solid;
+    aspect-ratio: 8/1;
+}
+#banner .right{
+    width: 55%;
+}
+#banner .row1{
+    width: 100%;
+    background-image: url(./Images/sidebar1.webp);
+    background-size: cover;
+    aspect-ratio: 3.5/1;
+    border: 1px rgb(56, 56, 56) solid;
+    position: relative;
+    margin-bottom: 2vw;
+}
+#banner .row1 button{
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border: 1px rgb(56, 56, 56) solid;
+    position: absolute;
+    height: 35px;
+    width: 100px;
+    top: -17px;
+    left: 30px;
+}
+#banner .row{
+    width: 100%;
+}
+
+#banner .row img{
+    width: 100%;
+    border: 1px rgb(24, 24, 24) solid;
+    cursor: pointer;
+}
+#banner .row .head1{
+    color: white;
+    font-size: 1vw;
+    font-family: "Lexend Peta", sans-serif;
+    margin-top: 1vw;
+}
+#banner .row .head2{
+   color: grey; 
+   font-family: "Lexend Peta", sans-serif;
+   font-size: 0.6vw;
+}
+
 #banner .button3{
     font-family: "Lexend Peta", sans-serif;
     color: white;
