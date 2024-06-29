@@ -305,6 +305,7 @@ body{
     border-top: 2px rgb(66, 66, 66) solid;
     padding-left: 5vw;
     padding-top: 10vw;
+    padding-bottom: 15vw;
 }
 #section4 .heading{
     font-family: "Domine", serif;
@@ -312,21 +313,117 @@ body{
     font-weight: bolder;
 }
 #section4 .scrolll{
-    border: 1px red solid;
-    height: 600px;
     margin-top: 3vw;
     display: block;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    gap: 1vw;
 }
-#section4 .cardd{
-    height: 500px;
-    width: 500px;
-    border: 1px blue solid;
 
+
+
+.scroll::-webkit-scrollbar{
+    width: 1px;
 }
-#section4 img{
-    width: 500px;
+::-webkit-scrollbar {
+    width: 0.5vw;
+    transition: all 0.6s;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:black;
+    border-radius:20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:grey; 
+    cursor:pointer;
+  }
+
+  ::-webkit-scrollbar:hover{
+    width: 12px;
+  }
+
+
+
+#section4 .cardd{
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 22vw;
+    border: 1px rgb(56, 56, 56) solid;
+}
+#section4 .cardd img{
+    width: 10vw;
+}
+
+#section4 .cardd p{
+    width: 24vw;
+    margin-top: 1vw;
+    color: white;
+    font-size: 2vw;
+    font-weight:600;
+}
+#section4 .c1{
+    background-image: url(./Images/card1w.webp);
+    background-size: cover;
+}
+#section4 .c2{
+    background-image: url(./Images/card2w.webp);
+    background-size: cover;
+}
+#section4 .c3{
+    background-image: url(./Images/card3w.webp);
+    background-size: cover;
+}
+#section4 .c4{
+    background-image: url(./Images/card4w.webp);
+    background-size: cover;
+}
+#section4 .c5{
+    background-image: url(./Images/card5w.webp);
+    background-size: cover;
+}
+#section4 .c6{
+    background-image: url(./Images/card6w.webp);
+    background-size: cover;
+}
+#section4 button{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    font-size: 0.9vw;
+    padding: 0.5vw 1.3vw;
+    font-weight: 600;
+    border: 1px solid grey;
+}
+
+
+
+#section5 .section5{
+    position: relative;
+}
+#section5 .body{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+}
+#section5 .heading{
+    color: white;
+    font-family: "Domine", serif;
+    font-size: 5vw;
+    font-weight: bolder;
+}
+#section5 .subheading{
+    color: rgb(231, 231, 231);
+    font-size: 1.3vw;
 }
 
