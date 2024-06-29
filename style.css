@@ -409,6 +409,7 @@ body{
 
 #section5 .section5{
     position: relative;
+    background-color: black;
 }
 #section5 .body{
     position: absolute;
@@ -425,5 +426,36 @@ body{
 #section5 .subheading{
     color: rgb(231, 231, 231);
     font-size: 1.3vw;
+}
+
+
+
+#section6 .container-fluid{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+#section6 img{
+    width: 5vw;
+}
+#section6 .heading{
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 1.3vw;
+    padding: 2vw 0px;
+}
+#section6 .body{
+    font-size: 3.5vw;
+}
+#section6 .container:hover{
+    color: white;
+}
+#section6 .container{
+    padding: 0vw 5vw;
+    color: rgb(40, 40, 40);
+    transition: color 1.5s;
 }
 
