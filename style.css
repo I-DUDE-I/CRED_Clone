@@ -27,7 +27,7 @@ body{
     position:fixed;
     bottom: 8%;
     right: 5%;
-    z-index: 1;
+    z-index: 3;
 }
 .upi img{
     width: 40%;
@@ -99,13 +99,14 @@ body{
 #banner .offcanvas1{
     background-image: url(./Images/Dropdownnew.jpg);
     background-repeat: no-repeat;
-    height: 850px;
+    background-size: cover;
+    height: 44vw;
 }
 
 #banner .learn{
     background-color: rgba(0, 0, 0, 0.39);
     position: absolute;
-    top: 740px;
+    top: 39vw;
     color: white;
     width: 12%;
     left: 44%;
@@ -117,7 +118,7 @@ body{
 }
 #banner .main{
     width: 100%;
-    margin-top: 270px;
+    margin-top: 13.3vw;
     display: flex;
     justify-content: space-around;
 }
@@ -160,10 +161,10 @@ body{
     background-color: rgba(0, 0, 0);
     border: 1px rgb(56, 56, 56) solid;
     position: absolute;
-    height: 35px;
-    width: 100px;
-    top: -17px;
-    left: 30px;
+    height: 2vw;
+    width: 7vw;
+    top: -1vw;
+    left: 2vw;
 }
 #banner .row{
     width: 100%;
@@ -516,6 +517,7 @@ body{
     background-color: black;
     color: white;
     position: relative;
+    border-bottom: 1px solid rgb(80, 80, 80);
 }
 #section8 .block{
     width: 50%;
@@ -563,7 +565,7 @@ body{
 
 
 #section9 button{
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     color: white;
     font-family: "Lexend Peta", sans-serif;
     font-size: 1.5vw;
@@ -576,8 +578,8 @@ body{
 
 #section9 .accordion{
     --bs-accordion-color: white;
---bs-accordion-bg: black;
---bs-accordion-border-width: 0px;
+--bs-accordion-bg: rgb(10,10,10);
+--bs-accordion-border-width: 1px 0px;
 --bs-accordion-border-radius: 0px;
 --bs-accordion-inner-border-radius:0px;
 }
@@ -593,4 +595,107 @@ body{
     color: rgb(175, 175, 175);
     font-size: 1.2vw;
     padding: 0vw 5vw;
+}
+
+
+
+.footter{
+    position: relative;
+}
+.footer{
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footer1{
+    border-top: 1px solid rgb(80, 80, 80);
+    padding-right: 4.4vw;
+    padding-left: 4.7vw;
+    padding-top: 8vw;
+    display: flex;
+    padding-bottom: 3vw;
+}
+.footer11{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer .logo{
+    width: 5.4vw;
+}
+.footer .companies{
+    width: 15vw;
+}
+.footer111 .heading{
+    font-weight: bolder;
+    font-size: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1.5vw;
+}
+.footer111 .content{
+    color: grey;
+    font-size: 1vw;
+    padding-right: 20vw;
+    font-weight: 500;
+}
+.footer12{
+    width: 50%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.footer12 .row1{
+    width: 100%;
+    background-image: url(./Images/sidebar1.webp);
+    background-size: cover;
+    aspect-ratio: 3.5/1;
+    border: 1px rgb(56, 56, 56) solid;
+    position: relative;
+    margin-bottom: 4vw;
+}
+.footer12 .row1 button{
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border: 1px rgb(56, 56, 56) solid;
+    position: absolute;
+    height: 2vw;
+    width: 7vw;
+    top: -1vw;
+    left: 2vw;
+}
+.footer12 .list{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    height:fit-content;
+}
+.footer12 .heading{
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.footer12 .content{
+    color: grey;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.footer121{
+    width: 33.33%;
+}
+
+.footer2{
+    border-top: 1px rgb(44, 44, 44) solid;
+    margin-right: 4.4vw;
+    margin-left: 4.7vw;
+    padding-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8vw;
+}
+.footer2 p{
+    color: grey;
+    font-size: 1vw;
 }
