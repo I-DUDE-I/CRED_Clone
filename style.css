@@ -157,6 +157,9 @@ body{
     margin-bottom: 2vw;
 }
 #banner .row1 button{
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 0.7vw;
+    font-size: bolder;
     color: white;
     background-color: rgba(0, 0, 0);
     border: 1px rgb(56, 56, 56) solid;
@@ -658,6 +661,9 @@ body{
     margin-bottom: 4vw;
 }
 .footer12 .row1 button{
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 0.7vw;
+    font-size: bolder;
     color: white;
     background-color: rgba(0, 0, 0);
     border: 1px rgb(56, 56, 56) solid;
