@@ -198,6 +198,11 @@ body{
    font-family: "Lexend Peta", sans-serif;
    font-size: .8.5vw;
 }
+#banner .div1:hover .button3{
+    font-size: 0.8vw;
+    opacity: 1;
+    padding: 0vw 2vw;
+}
 
 #banner .button3{
     font-family: "Lexend Peta", sans-serif;
