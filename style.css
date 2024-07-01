@@ -48,9 +48,16 @@ body{
     object-fit:cover;
     object-fit: fill;
     width: 100%;
+    height: 100%;
     z-index: -1;
 }
 #banner .logo{
+    width: 4%;
+    position: absolute;
+    left: 7%;
+    top: 6%;
+}
+#banner .logo1{
     width: 4%;
     position: absolute;
     left: 7%;
@@ -171,6 +178,8 @@ body{
 }
 #banner .row{
     width: 100%;
+    display: flex;
+    gap: 8.6vw;
 }
 
 #banner .row img{
@@ -187,7 +196,7 @@ body{
 #banner .row .head2{
    color: grey; 
    font-family: "Lexend Peta", sans-serif;
-   font-size: 0.6vw;
+   font-size: .8.5vw;
 }
 
 #banner .button3{
@@ -202,10 +211,7 @@ body{
     transition-delay: opacity 0.6s;
 }
 
-#banner .div1:hover .button3{
-    font-size: .7vw;
-    opacity: 1;
-}
+
 #banner .label1{
     cursor: pointer;
 }
@@ -284,6 +290,15 @@ body{
     color: white;
     background-color: black;
 }
+#section3 .v1{
+    width: 100%;
+    border-bottom: 2px rgb(66, 66, 66) solid;
+
+}
+#section3 .v2{
+    width: 0px;
+    height: 0px;
+}
 
 #section3 .block{
     position: absolute;
@@ -306,7 +321,6 @@ body{
     background-color: black;
     color: white;
     border-bottom: 2px rgb(66, 66, 66) solid;
-    border-top: 2px rgb(66, 66, 66) solid;
     padding-left: 5vw;
     padding-top: 10vw;
     padding-bottom: 15vw;
@@ -704,4 +718,456 @@ body{
 .footer2 p{
     color: grey;
     font-size: 1vw;
+}
+
+
+
+@media screen and (max-width:500px){
+
+
+    .upi{
+        width: 25%;
+    }
+    .upi p{
+        margin-top: 5%;
+        font-size: 2.5vw;
+    }
+
+    #banner .logo{
+        width: 10%;
+        left: 3%;
+        top: 3%;
+    }
+
+    #banner .navbar{
+        top: 2%;
+        right: 3%;
+    }
+
+    #banner .span1{
+        font-size: 1.5vw;
+        font-family: "Lexend Peta", sans-serif;
+        margin-right: 2vw;
+    }
+    #banner .span2{
+        margin-right: 2vw;
+        font-size: 4.3vw;
+        font-weight:600;
+    }
+    #banner .button1{
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid rgb(87, 87, 87);
+        padding: 4vw 3vw;
+        font-size: 3vw;
+    }
+    #banner .banner{
+        aspect-ratio: 1/2;
+    }
+    #banner .button2{
+        padding: 4vw 3vw;
+        font-size: 3vw;
+        position: absolute;
+        top: 2%;
+        right: 3%;
+    }
+    #banner .offcanvas1{
+        background-image: url(./Images/dropdown\ phone.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200vw;
+    }
+    #banner .logo2{
+        width: 10%;
+        top: 3%;
+        left: 3%;
+    }
+
+    #banner .learn{
+        position: absolute;
+        top: 98vw;
+        width: 40%;
+        left: 30%;
+        font-size: 4vw;
+    }
+
+    #banner .main{
+        width: 100%;
+        margin-top: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10vw;
+    }
+    #banner .list{
+        width: 75%;
+        cursor: pointer;
+    }
+    #banner .logo3{
+        top: 3%;
+        left: 3%;
+        width: 10vw;
+    }
+    #banner .list p{
+        font-size: 3vw;
+        padding-top: 0.1vw;
+        padding-bottom: 0.1vw;
+        color: white;
+        width: 100%;
+        border-bottom: grey 1px solid;
+        aspect-ratio: 8/1;
+        text-align: center;
+    }
+    #banner .right{
+        width: 100%;
+    }
+    #banner .row1 button{
+        font-size: 2vw;
+        position: absolute;
+        height: 5vw;
+        width: 20vw;
+        top: -2.5vw;
+        left: 6vw;
+    }
+    #banner .row{
+        gap: 1vw;
+    }
+    #banner .row .head1{
+        font-size: 2.2vw;
+        margin-top: 1vw;
+    }
+    #banner .row .head2{
+        font-size: 2vw;
+    }
+
+    #banner .div1:hover .button3{
+        font-size: 2vw;
+        opacity: 1;
+        padding: 0vw 4vw;
+    }
+
+    #banner .heading{
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        width: 80%;
+    }
+
+    #banner .heading1{
+        font-size: 11vw;
+    }
+    #banner .heading2{
+        font-size: 3vw;
+    }
+    #section1 .header{
+        padding-top: 5vw;
+        font-size: 3vw;
+    }
+    #section1 .body{
+        font-size: 6vw;
+        margin-top: 5vw;
+        padding: 5vw;
+    }
+
+
+
+    #section2 .container-fluid{
+        padding-top: 5vw;
+    }
+    #section2 .heading{
+        font-size: 6vw;
+    }
+    #section2 .body{
+        font-size: 3vw;
+        padding-bottom: 10vw;
+    }
+
+
+
+    #section3 .v2{
+        width: 100%;
+        height: auto;
+        border-bottom: 2px rgb(66, 66, 66) solid;
+    
+    }
+    #section3 .v1{
+        width: 0px;
+        height: 0px;
+        border-bottom: 0px rgb(0, 0, 0) solid;
+    }
+
+    #section3 .block{
+        position: absolute;
+        top: 7vw;
+        left: 9vw;
+    }
+    
+    #section3 .heading{
+        padding-top: 8vw;
+        font-size: 6vw;
+    }
+    #section3 .body{
+        font-size: 3vw;
+    }
+    #section3{
+        transform-origin: rotate(90deg);
+    }
+
+
+
+    #section4 .container-fluid{
+        padding-bottom: 20vw;
+    }
+    #section4 .heading{
+        padding-top: 10vw;
+        padding-bottom: 5vw;
+        font-size: 6vw;
+    }
+    #section4 .cardd{
+        padding-top: 3vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 60vw;
+        border: 1px rgb(56, 56, 56) solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section4 .cardd img{
+        width: 40vw;
+        padding: 5vw;
+    }
+    
+    #section4 .cardd p{
+        text-align: center;
+        width: 75vw;
+        margin-top: 1vw;
+        font-size: 5vw;
+    }
+    #section4 button{
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+
+
+
+    
+    #section5 .body{
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        width: 70%;
+    }
+    #section5 .heading{
+        font-size: 8vw;
+    }
+    #section5 .subheading{
+        color: rgb(231, 231, 231);
+        font-size: 3vw;
+    }
+
+
+
+    #section6 .container-fluid{
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+    #section6 img{
+        width: 10vw;
+    }
+    #section6 .heading{
+        font-size: 2vw;
+        padding: 6vw 0px;
+    }
+    #section6 .body{
+        font-size: 5vw;
+    }
+    #section6 .container:hover{
+        color: white;
+    }
+    #section6 .container{
+        padding: 0vw 5vw;
+        color: rgb(40, 40, 40);
+        transition: color 1.5s;
+    }
+
+    #section7 .container-fluid{
+        padding: 10vw 13vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #section7 .rating{
+        display: flex;
+        gap: 15vw;
+    }
+    #section7 .heading{
+        font-size: 4vw;
+    }
+    #section7 .body{
+        font-size: 10vw;
+    }
+    #section7 .rate{
+        padding-top: 20vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section7 .rate img{
+        width: 20vw;
+    }
+    #section7 .rateup{
+        font-size: 10vw;
+    }
+    #section7 .ratedown{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    #section7 .store{
+        color: grey;
+        font-size: 3vw;
+    }
+    
+
+
+
+    #section8 .door{
+        height: 100vw;
+    }
+    #section8 .block{
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        top: 0;
+        left: 50%;
+        gap: 1vw;
+        padding-right: 6vw;
+    }
+    .upi2{
+        margin-top: 10vw;
+        width: 50%;
+        aspect-ratio: 4/2;
+        padding: 1vw;
+        gap: 1vw;
+    }
+    .upi2 img{
+        width: 50%;
+    }
+    .upi2 p{
+        padding-top: 0vw;
+        font-size: 2vw;
+    }
+    
+    #section8 .heading{
+        font-size: 6vw;
+    }
+    #section8 .body{
+        font-size: 3vw;
+        margin-bottom: 10vw;
+
+    }
+
+
+
+
+    #section9 button{
+        background-color: rgb(10, 10, 10);
+        color: white;
+        font-family: "Lexend Peta", sans-serif;
+        font-size: 3vw;
+        padding: 5vw 13vw;
+    }
+    #section9 .heading{
+        font-weight: bolder;
+        font-size: 3.5vw;
+        padding: 2vw 5vw;
+    }
+    #section9 .content{
+        color: rgb(175, 175, 175);
+        font-size: 3vw;
+        padding: 0vw 5vw;
+    }
+
+
+
+
+
+    .footer1{
+        border-top: 1px solid rgb(80, 80, 80);
+        padding-right: 4.4vw;
+        padding-left: 4.7vw;
+        padding-top: 15vw;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3vw;
+    }
+    .footer11{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-content: space-between;
+        padding-bottom: 5vw;
+    }
+    .footer12{
+        width: 100%;
+    }
+    .footer .logo{
+        width: 10vw;
+        height: 10vw;
+    }
+    .footer .companies{
+        width: 30vw;
+    }
+    .footer111 .heading{
+        font-weight: bolder;
+        font-size: 2vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    .footer111 .content{
+        color: grey;
+        font-size: 2vw;
+        font-weight: 500;
+        padding-right: 1vw;
+    }
+    .footer111{
+        padding-left: 50vw;
+    }
+    .footer .row1 button{
+        font-size: 2vw;
+        position: absolute;
+        height: 5vw;
+        width: 20vw;
+        top: -2.5vw;
+        left: 6vw;
+    }
+    .footer12 .list{
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        height:fit-content;
+    }
+    .footer12 .heading{
+        font-size: 2.2vw;
+        padding: 0;
+        margin: 0;
+    }
+    .footer12 .content{
+        font-size: 2vw;
+        font-weight: 500;
+        margin: 1vw;
+    }
+    .footer2 p{
+        font-size: 2vw;
+    }
+  
+    
+
+
+
+
 }
